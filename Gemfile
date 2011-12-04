@@ -9,6 +9,7 @@ gem 'twitter'
 gem 'omniauth-twitter' 
 gem 'sqlite3'
 gem 'pg'
+gem 'therubyracer'
 
 group :development do 
   gem "heroku"
