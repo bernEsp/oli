@@ -8,6 +8,7 @@ gem 'jquery-rails'
 gem 'twitter'
 gem 'omniauth-twitter' 
 gem 'sqlite3'
+gem 'pg'
 
 group :development do 
   gem "heroku"
