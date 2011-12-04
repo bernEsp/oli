@@ -4,4 +4,11 @@
  * the top of the compiled file, but it's generally better to create a new file per style scope.
  *= require_self
  *= require_tree . 
-*/
+*/ 
+.oli_background{
+	background: url('bkg.jpg');
+}
+.container{
+	margin: 0 auto;
+	width: 960px;
+}

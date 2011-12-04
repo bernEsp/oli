@@ -4,7 +4,7 @@ Oly::Application.routes.draw do
   match "/auth/:provider/callback" => "sessions#create"
   match "/signout" => "sessions#destroy", :as => :signout
   resources :searches
-    
+  match "searches/black_list" => "searches#black_list"   
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
